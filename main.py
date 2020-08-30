@@ -1,11 +1,12 @@
 from directory_manager import DirectoryManager
 
-saved_path = '/full/path/directory/to/save'
+download_path = "/full/path/directory/to/save"
 full_uris = [
-	"https://github.com",
+	"https://www.talkwalker.com/blog/what-is-image-analysis",
+	"https://helpx.adobe.com/stock/how-to/visual-reverse-image-search.html"
 ]
 
-DirectoryManager(full_uris, saved_path)
+DirectoryManager(full_uris, download_path)
 
 
 
