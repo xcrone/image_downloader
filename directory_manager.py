@@ -24,6 +24,7 @@ class DirectoryManager:
 					onerror = True
 			except OSError:
 				print("Failed to create directory at %s\n" % mkdir)
+				break
 			
 			url = os.path.split(full_uri)[0]
 			if len(url) < 6:
