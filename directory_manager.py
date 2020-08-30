@@ -12,7 +12,7 @@ class DirectoryManager:
 		c = 0
 		onerror = False
 		for full_uri in self.full_uris:
-			mkdir = self.saved_path + "/pic_" + str(c)
+			mkdir = self.saved_path + "/uri_" + str(c)
 			access_rights = 0o755
 			print ("Creating directory at %s " % mkdir)
 			try:
